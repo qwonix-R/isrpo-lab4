@@ -16,7 +16,7 @@ class CircleTestCase(unittest.TestCase):
         self.assertAlmostEqual(circle_area(2.5), math.pi * 6.25)
 
     def test_perimeter(self):
-        self.assertAlmostEqual(circle_perimeter(10), 2 * math.pi * 10)
+        self.assertAlmostEqual(circle_perimeter(10), 2 * math.pi * 110)
 
     def test_perimeter_zero(self):
         self.assertEqual(circle_perimeter(0), 0)
